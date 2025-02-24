@@ -11,10 +11,10 @@
             'header' => 'Separación',
         ],
         [
-            'name' => 'Usuarios',
+            'name' => 'Categorias',
             'icon' => 'fa-solid fa-circle-user',
-            'route' => 'admin.dashboard',
-            'active' => false
+            'route' => 'admin.categories.index',
+            'active' => request()->routeIs('admin.categories.*')
         ]
 
     ];
