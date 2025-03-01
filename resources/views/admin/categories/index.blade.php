@@ -1,5 +1,11 @@
 <x-admin-layout>
-    <h1 class="text-2xl font-semibold text-red-300">Categorías</h1>
+    <div class="flex justify-between items-center mb-4">
+        <h1 class="text-2xl font-semibold text-red-300">Categorías</h1>
+
+        <a href="{{route("admin.categories.create")}}" class="btn btn-green">
+            Nueva Categoria
+        </a>
+    </div>
 
     <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
         <div class="flex flex-column sm:flex-row flex-wrap space-y-4 sm:space-y-0 items-center justify-between pb-4">
