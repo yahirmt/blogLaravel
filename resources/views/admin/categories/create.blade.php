@@ -10,7 +10,7 @@
                 <x-label class="mb-1">
                     Nombre
                 </x-label>
-                <x-input class="w-full" type="text" name="name" id="name" />
+                <x-input class="w-full" type="text" name="name" id="name" value="{{old('name')}}" required />
             </div>
         </div>
         <div class="flex justify-end mt-4">
